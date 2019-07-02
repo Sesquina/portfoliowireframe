@@ -1,0 +1,63 @@
+/* BASE RESET */
+body {
+  box-sizing: border-box;
+  font-family: 'Courier New', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* VERTICAL RHYTHM */
+* + * {
+  margin-top: 1em;
+}
+
+section,
+footer {
+  margin-top: 0;
+  padding: 1rem; 
+}
+
+/* THEME STYLES */
+button {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: bolder;
+  background: transparent;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+button a {
+  text-decoration: none;
+}
+
+h1, 
+h2, 
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.material-icons {
+  font-size: inherit;
+}
