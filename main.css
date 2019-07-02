@@ -1,37 +1,27 @@
-* {
-  box-sizing: border-box;
+.close-menu {
+  position: fixed;
+  z-index: 999;
 }
 
-body {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 20px;
-  color: #444;
+nav ul {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+nav li {
+  width: 100%;
   text-align: center;
-  line-height: 1.5;
+  font-size: 2rem;
 }
 
-h1 {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 18px;
-  color: #444;
-  text-align: center;
-  line-height: 1.5;
+nav li a {
+  padding: 0.5rem;
+  display: block;
 }
 
-p {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 12px;
-  color: purple;
-  text-align: center;
-  line-height: 1.5;
-}
-
-header {
-  padding: 12% 0;
-}
-
-section {
-  min-height: 200px;
-  padding: 6% 0;
-  background-color: #bbb;
-}
